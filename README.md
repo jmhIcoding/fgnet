@@ -22,7 +22,7 @@ We collected our private dataset from 23rd June and obtained a dataset named D1.
 We have extracted the side-channel informantion such as packet size, packet arrival time from the raw pcap files and shared them in the format of json file.
 
 All the json files are layouted as `dataset/{datasetName}/{appName}/{appVersion}/{timestamp}_clear.pcap.json`.
-And each json file 
+
 Let us take an example, for a pcap sample for `bbc.mobile.weather` of version 4.0.6, the parsed json file is:
 `dataset/D1/bbc.mobile.weather/4.0.6/1592638931_clear.pcap.json`.
 
