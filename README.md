@@ -8,7 +8,7 @@ Here go the details of the dataset setup:
   As Figure-3 indicates, smartphones with apps communicate with the Internet via a WiFi access point (AP) and the AP forwards the packets into two gateways that come from different ISPs.
   To generate traffic from apps, we used scripts that communicated with the target mobile via USB using Android Debug Bridge (ADB).
   These scripts were sent by the controller computer, and mainly contained UI commands that simulated user actions within apps and system commands that configured the devices.
-  ![Figure-3](https://img-blog.csdnimg.cn/6219b825d7334c99bfaa09654260f3e8.png)
+  ![Figure-3](https://raw.githubusercontent.com/jmhIcoding/fgnet/main/capture_figure.png)
 
 - Applications selection
   We selected 53 apps from the apps list used by AppScanner after filtering out several plain-text applications which consist of a relatively low fraction of encrypted traffic. These apps come from different regions such as shopping, magazines, social and so on. We always installed the latest versions onto the selected devices and signed up for each app.
