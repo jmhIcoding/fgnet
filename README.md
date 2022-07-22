@@ -1,5 +1,5 @@
 Dataset for `Accurate Mobile-App Fingerprinting Using Flow-level Relationship with Graph Neural Networks`.
-# This work is being accepted by Computer Networks.
+# This work is being submitted to the journey of Computer Networks.
 # Background of this dataset
 We collected another private encrypted mobile application traffic dataset across weeks, to evaluate the generalization of our method in dealing with ambiguous traffic and the performance against traffic concepts drift.
 Here go the details of the dataset setup:
@@ -313,4 +313,4 @@ Here is an example: there are six network flows in the corresponding pcap, so th
 
 Currently, we only open the side-channel information of our dataset for  convenience.
 
-If you want to get the raw pcap files of our dataset, please contact us with the following E-mail: jiangminghao@iie.ac.cn, gougaopeng@iie.ac.cn, caiwei@iie.ac.cn.
+If you want to get the raw pcap files of our dataset, please contact us with the following E-mail: jiangminghao@iie.ac.cn,  caiwei@iie.ac.cn, gougaopeng@iie.ac.cn.
