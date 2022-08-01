@@ -311,6 +311,6 @@ Here is an example: there are six network flows in the corresponding pcap, so th
 ]
 ```
 
-Currently, we only open the side-channel information of our dataset for convenience, and you can build up Flow relationship graph based on the these information.
+Currently, we only open the side-channel information of our dataset for convenience, and you can build up Flow relationship graph based on these information.
 
 If you want to get the raw pcap files of our dataset, please contact us with the following E-mail: jiangminghao@iie.ac.cn,  caiwei@iie.ac.cn, gougaopeng@iie.ac.cn.
