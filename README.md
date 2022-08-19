@@ -1,5 +1,5 @@
 Dataset for `Accurate Mobile-App Fingerprinting Using Flow-level Relationship with Graph Neural Networks`.
-# This work has been submitted to the journey of Computer Networks.
+# This work has been accepted by the journey of Computer Networks.
 # Background of this dataset
 We collected another private encrypted mobile application traffic dataset across weeks, to evaluate the generalization of our method in dealing with ambiguous traffic and the performance against traffic concepts drift.
 Here go the details of the dataset setup:
