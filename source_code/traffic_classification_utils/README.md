@@ -1,8 +1,8 @@
 # traffic_classification_utils
 ## Introduction
-This project organizes and summarizes the common methods in encrypted traffic classification, and provides the execution entry of each method. When using it, you only need to preprocess your own data as required, put it in a specified directory, and then run the entry main function of the corresponding model. This project is particularly helpful for researchers to conduct comparative experiments. Now that one of my papers has been accepted, so I open the source this project and share it with everyone!
+This project organizes and summarizes the common methods in encrypted traffic classification, and provides the execution entry of each method. When using it, you only need to preprocess your own data as required, put it in a specified directory, and then run the entry main function of the corresponding model. This project is particularly helpful for researchers to conduct comparative experiments. Now that this paper has been accepted, so I open the source this project and share it with everyone!
 
-Currently this project only integrates related models based on packet length sequences, ** payload-based models are not discussed**!
+Currently this project only integrates related models based on packet length sequences,  **payload-based models are not discussed**!
 
 ## URL
 https://github.com/jmhIcoding/traffic_classification_utils
