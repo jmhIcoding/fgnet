@@ -314,3 +314,22 @@ Here is an example: there are six network flows in the corresponding pcap, so th
 Currently, we open all the necessary side-channel information of our dataset for convenience, and you can build up Flow relationship graph (FRG) based on these information.
 
 If you want to get the raw pcap files of our dataset, please contact us with the following E-mail: jiangminghao@iie.ac.cn,  caiwei@iie.ac.cn, gougaopeng@iie.ac.cn.
+
+If you use our data, or our open source model comparison library, please add a citation about our paper in your paper.
+
+Here goes the bibtex of our paper:
+
+```
+@article{JIANG2022109309,
+title = {Accurate mobile-app fingerprinting using flow-level relationship with graph neural networks},
+journal = {Computer Networks},
+pages = {109309},
+year = {2022},
+issn = {1389-1286},
+doi = {https://doi.org/10.1016/j.comnet.2022.109309},
+url = {https://www.sciencedirect.com/science/article/pii/S1389128622003577},
+author = {Minghao Jiang and Zhen Li and Peipei Fu and Wei Cai and Mingxin Cui and Gang Xiong and Gaopeng Gou},
+keywords = {Mobile encrypted traffic classification, Graph neural network},
+abstract = {Identifying mobile applications (apps) from encrypted network traffic (also known as app fingerprinting) plays an important role in areas like network management, advertising analysis, and quality of service. Existing methods mainly extract traffic features from packet-level information (e.g. packet size sequence) and build up classifiers to obtain good performance. However, the packet-level information suffers from small discrimination for the common traffic across apps (e.g. advertising traffic) and rapidly changing for the traffic before and after apps’ updating. As a result, their performance declines in these two real scenes. In this paper, we propose FG-Net, a novel app fingerprinting based on graph neural network (GNN). FG-Net leverages a novel kind of information: flow-level relationship, which is distinctive between different apps and stable across apps’ versions. We design an information-rich graph structure, named FRG, to embed both raw packet-level information and flow-level relationship of traffic concisely. With FRG, we transfer the problem of mobile encrypted traffic fingerprinting into a task of graph representation learning, and we designed a powerful GNN-based traffic fingerprint learner. We conduct comprehensive experiments on both public and private datasets. The results show the FG-Net outperforms the SOTAs in classifying traffic with about 18% common traffic. Without retraining, FG-Net obtains the most robustness against the updated traffic and increases the accuracy by 5.5% compared with the SOTAs.}
+}
+```
