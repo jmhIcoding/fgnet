@@ -4,8 +4,6 @@ This project organizes and summarizes the common methods in encrypted traffic cl
 
 Currently this project only integrates related models based on packet length sequences,  **payload-based models are not discussed**!
 
-## URL
-https://github.com/jmhIcoding/traffic_classification_utils
 ## Project Highlights
 ### Embedded multiple models for encrypted traffic classification
 Currently this project supports the following models:
